@@ -1,6 +1,7 @@
 # 2024.2 Avaliação do 1o período de Sistemas Operacionais
 
 ## Informações gerais
+- **Aluna**: Laura Beatriz Luna Maia
 - **Objetivo do repositório**: Avaliação do 1o bimestre da Disciplina de sistemas operacionais do curso de TADS do IFRN-CNAT
 - **Público alvo**: alunos da disciplina de SO (Sistemas Operacionais) do curso de TADS (Superior em Tecnologia em Análise e Desenvolvimento de Sistemas) no CNAT-IFRN (Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal-Central).
 - disciplina: **SO** Sistemas Operacionais
@@ -21,7 +22,12 @@ Considere as funções e objetivos principais de um sistema operacional conforme
 
 **Dica**: Pense em exemplos práticos de como o sistema operacional realiza essas tarefas no dia a dia de um usuário.
 
-**Copilot informa**: Essa questão incentiva os alunos a explorarem os conceitos fundamentais e a aplicarem o conhecimento teórico em situações práticas. Se precisar de mais alguma coisa, estou aqui para ajudar!
+# Resposta questão 1 
+a) gerenciamento de processos: no hardware, ele pretende dividir a capacidade de processamento de uma forma justa para todos, evitando a monopolização de recursos. Na parte de software, ele "deixa a impressão" de que existe um processador independente para cada tarefa, permitindo a criação de aplicações mais interativas. 
+b) gerenciamento de memória: No hardware, ele 
+c) gerenciamento de dispositivos de entrada e saída 
+d) gerenciamenro de arquivos
+
 
 # Questão 2. Estrutura de sistemas operacionais
 

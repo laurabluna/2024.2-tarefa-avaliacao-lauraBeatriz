@@ -74,7 +74,6 @@ Com base no texto sobre a estrutura de sistemas operacionais, analise como as di
 
 **Dica:** Utilize exemplos de sistemas operacionais reais que adotam essas arquiteturas para ilustrar sua análise.
 
-**Copilot informa**: Essa questão incentiva os alunos a considerarem tanto os aspectos econômicos quanto os de segurança ao avaliar diferentes arquiteturas de sistemas operacionais.
 
 # Questão 3. Introdução à Segurança de Sistemas Operacionais
 
@@ -102,8 +101,39 @@ Considerando os mecanismos de segurança discutidos, analise como a implementaç
 
 **Dica:** Pense em como esses mecanismos são aplicados em sistemas operacionais que você utiliza no dia a dia, como Windows, Linux ou macOS.
 
-**Copilot informa**: Essa questão incentiva os alunos a refletirem sobre o equilíbrio entre segurança, performance e usabilidade, aplicando conceitos teóricos a contextos práticos.
+## Reposta Questão 3
+- Criptografia
 
+Benefícios:
+Confidencialidade: Protege dados em trânsito e em repouso, tornando-os ilegíveis para intrusos.
+Integridade: Permite verificar se os dados foram alterados durante a transmissão.
+Autenticação: Pode ser usada para autenticar a origem dos dados.
+
+Desafios:
+Performance: A criptografia consome recursos computacionais, podendo afetar a performance do sistema, especialmente em dispositivos com recursos limitados.
+Complexidade: A escolha do algoritmo de criptografia e a gestão das chaves são tarefas complexas que exigem conhecimento técnico.
+Compatibilidade: A interoperabilidade entre diferentes sistemas criptográficos pode ser um desafio.
+
+Impacto na experiência do usuário: Positivo: Aumenta a segurança das comunicações e dos dados armazenados. Negativo: Pode exigir a instalação de software adicional ou a configuração manual de certificados digitais.
+
+Exemplo: HTTPS: Criptografa a comunicação entre o navegador e o servidor web, protegendo informações sensíveis como senhas e dados de cartão de crédito.
+
+- Controles de Acesso
+
+Benefícios:
+Confidencialidade: Protege dados sensíveis de acessos não autorizados
+Integridade: Garante que os dados não sejam alterados por usuários não autorizados
+Disponibilidade: Impede que usuários maliciosos bloqueiem o acesso a recursos críticos
+
+Desafios:
+Performance: A autenticação pode adicionar latência ao acesso a recursos, especialmente em sistemas com muitos usuários
+Complexidade: A gestão de permissões e a criação de políticas de acesso podem ser complexas, especialmente em ambientes heterogêneos
+Usabilidade: Excesso de controles pode tornar o sistema difícil de usar, exigindo que os usuários memorizem muitas senhas e sigam procedimentos complexos
+
+Impacto na experiência do usuário:
+Positivo: Aumento da confiança na segurança dos dados e serviços
+Negativo: Pode gerar frustração devido a necessidade de autenticação frequente e restrição de acesso a determinados recursos
+Exemplos: Autenticação de dois fatores: Aumenta a segurança, mas exige que o usuário forneça uma segunda forma de autenticação (como um código enviado por SMS)
 
 # Questão 4. Custo de Processamento versus Algoritmo Ótimo de Escalonamento
 
@@ -133,7 +163,19 @@ Considerando os conceitos de custo de processamento e algoritmo ótimo de escalo
 
 **Dica:** Pense em como esses algoritmos são aplicados em diferentes cenários, como sistemas de tempo real, servidores web e sistemas operacionais de uso geral.
 
-**Copilot informa**: Essa questão incentiva os alunos a refletirem sobre a complexidade e os trade-offs envolvidos na escolha de um algoritmo de escalonamento, aplicando conceitos teóricos a contextos práticos.
+##Resposta questão 4
+
+Priority Scheduling:
+Vantagens: Permite priorizar processos importantes, como processos em tempo real.
+Desvantagens: Processos de baixa prioridade podem sofrer de inanição se não houver oportunidade de execução. A definição de prioridades pode ser complexa.
+
+Round Robin (RR):
+Vantagens: Garante um tempo de resposta razoável para todos os processos e evita a inanição.
+Desvantagens: O tempo de resposta pode ser maior do que o SJN para processos curtos, devido ao overhead de troca de contexto.
+
+Overhead de troca de contexto: Algoritmos que realizam muitas trocas de contexto (como o Round Robin com um quantum muito pequeno) podem aumentar o overhead do sistema.
+
+Servidores web: Beneficiam de algoritmos que minimizem o tempo de resposta, como o SJN ou o Round Robin.
 
 # Questão 5. Aplicativo em python vs aplicativos em c
 
@@ -147,4 +189,3 @@ Explique o caminho que as instruções seguem desde um aplicativo escrito em Pyt
 
 **Dica:** Compare e contraste os dois processos, destacando as principais diferenças e semelhanças na forma como as instruções são processadas e executadas.
 
-**Copilot informa**: Essa questão incentiva os alunos a refletirem sobre os diferentes caminhos que as instruções seguem em linguagens interpretadas e compiladas, aplicando conceitos teóricos a contextos práticos.

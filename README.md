@@ -101,7 +101,7 @@ Considerando os mecanismos de segurança discutidos, analise como a implementaç
 
 **Dica:** Pense em como esses mecanismos são aplicados em sistemas operacionais que você utiliza no dia a dia, como Windows, Linux ou macOS.
 
-## Reposta Questão 3
+# Reposta Questão 3
 - Criptografia
 
 Benefícios:
@@ -163,7 +163,7 @@ Considerando os conceitos de custo de processamento e algoritmo ótimo de escalo
 
 **Dica:** Pense em como esses algoritmos são aplicados em diferentes cenários, como sistemas de tempo real, servidores web e sistemas operacionais de uso geral.
 
-##Resposta questão 4
+#Resposta questão 4
 
 Priority Scheduling:
 Vantagens: Permite priorizar processos importantes, como processos em tempo real.

@@ -101,7 +101,7 @@ Considerando os mecanismos de segurança discutidos, analise como a implementaç
 
 **Dica:** Pense em como esses mecanismos são aplicados em sistemas operacionais que você utiliza no dia a dia, como Windows, Linux ou macOS.
 
-# Reposta Questão 3
+# Resposta Questão 3
 - Criptografia
 
 Benefícios:
